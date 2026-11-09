@@ -1,0 +1,18 @@
+NOVA CREATIVE STUDIO — PORTFOLIO DEMO UPDATE
+
+This is a front-end portfolio demonstration. It does not use a live backend or database.
+
+Updates in this version:
+1. Uses the supplied NOVA business email and WhatsApp contact details in site configuration.
+2. Keeps the enquiry form clearly labelled as a demo. It validates entries and prepares an email draft; it does not transmit or store form submissions.
+3. Adds dynamic WhatsApp enquiry text using the visitor's entered name, email, subject, and message.
+4. Adds individual case-study detail routes for Aster House, Nura Botanics, Orbit Finance, and Common Ground.
+5. Adds "Explore concept" links to portfolio cards and a contact CTA on each case study.
+6. Keeps demo/fictional-project disclosures to avoid presenting concept work as real client work.
+
+Run locally:
+- Install dependencies with: npm install
+- Start dev server: npm run dev
+- Production build: npm run build
+
+The build was not verified in this environment because dependency installation did not complete within the available execution window. Run npm install and npm run build locally before publishing.
