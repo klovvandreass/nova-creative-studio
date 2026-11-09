@@ -1,6 +1,6 @@
-import Seo from '../components/Seo'
-import { ButtonLink } from '../components/ui'
-import { NovaMark } from '../components/Logo'
+import Seo from './Seo'
+import { ButtonLink } from './ui'
+import { NovaMark } from './Logo'
 
 export default function NotFound() {
   return (

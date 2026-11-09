@@ -1,9 +1,9 @@
 import { ArrowUpRight, Clock3, Mail, MapPin, MessageCircle } from 'lucide-react'
-import Seo from '../components/Seo'
-import PageHero from '../components/PageHero'
-import ContactForm from '../components/ContactForm'
-import { Reveal } from '../components/ui'
-import { siteConfig, whatsappUrl } from '../lib/site'
+import Seo from './Seo'
+import PageHero from './PageHero'
+import ContactForm from './ContactForm'
+import { Reveal } from './ui'
+import { siteConfig, whatsappUrl } from './site'
 
 export default function Contact() {
   return (

@@ -1,4 +1,4 @@
-import type { Project } from '../lib/site'
+import type { Project } from './site'
 import { Link } from 'react-router-dom'
 import { ArrowUpRight } from 'lucide-react'
 import { Reveal } from './ui'

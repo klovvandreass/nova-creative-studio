@@ -1,6 +1,6 @@
 import { ArrowUpRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import type { Service } from '../lib/site'
+import type { Service } from './site'
 import { Reveal } from './ui'
 
 export default function ServiceCard({

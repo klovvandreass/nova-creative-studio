@@ -6,17 +6,17 @@ import {
   useTransform,
 } from 'framer-motion'
 import { ArrowDown, Check, Quote } from 'lucide-react'
-import Seo from '../components/Seo'
-import ServiceCard from '../components/ServiceCard'
-import ProjectCard from '../components/ProjectCard'
-import CtaSection from '../components/CtaSection'
+import Seo from './Seo'
+import ServiceCard from './ServiceCard'
+import ProjectCard from './ProjectCard'
+import CtaSection from './CtaSection'
 import {
   ButtonLink,
   Reveal,
   SectionHeading,
   TextLink,
-} from '../components/ui'
-import { clients, projects, services } from '../lib/site'
+} from './ui'
+import { clients, projects, services } from './site'
 
 const heroItem = {
   hidden: { opacity: 0, y: 34 },
