@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --color-paper: #f7f6f2;
+  --color-ink: #17191d;
+  --color-cobalt: #1854d8;
+  --color-line: #dcdad4;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background: #f7f6f2;
+  }
+
+  body {
+    min-width: 320px;
+    overflow-x: clip;
+    background: #f7f6f2;
+    color: #17191d;
+    font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: #1854d8;
+    color: #ffffff;
+  }
+
+  :focus-visible {
+    outline: 2px solid #1854d8;
+    outline-offset: 4px;
+  }
+
+  img,
+  svg {
+    display: block;
+  }
+}
+
+@layer components {
+  .site-container {
+    width: min(calc(100% - 2.5rem), 80rem);
+    margin-inline: auto;
+  }
+
+  .section-pad {
+    padding-block: clamp(5rem, 9vw, 8.5rem);
+  }
+
+  .hero-grid {
+    background-image:
+      linear-gradient(to right, rgba(23, 25, 29, 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(23, 25, 29, 0.045) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: linear-gradient(to bottom, black 10%, transparent 94%);
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+@media (min-width: 768px) {
+  .site-container {
+    width: min(calc(100% - 4rem), 80rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
