@@ -1,13 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Layout from './components/Layout'
-import Home from './pages/Home'
-import About from './pages/About'
-import Services from './pages/Services'
-import Portfolio from './pages/Portfolio'
-import ProjectDetail from './pages/ProjectDetail'
-import Contact from './pages/Contact'
-import NotFound from './pages/NotFound'
-
+import Layout from '../components/Layout'
+import Home from './Home'
+import About from './About'
+import Services from './Services'
+import Portfolio from './Portfolio'
+import ProjectDetail from './ProjectDetail'
+import Contact from './Contact'
+import NotFound from './NotFound'
 export default function App() {
   return (
     <BrowserRouter>
