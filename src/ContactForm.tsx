@@ -7,8 +7,8 @@ import {
   MessageCircle,
   Send,
 } from 'lucide-react'
-import { siteConfig, whatsappUrl } from '../lib/site'
-import { buttonStyles } from '../lib/styles'
+import { siteConfig, whatsappUrl } from './site'
+import { buttonStyles } from './styles'
 
 type FormValues = {
   name: string

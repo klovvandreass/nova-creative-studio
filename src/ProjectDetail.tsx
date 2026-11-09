@@ -1,10 +1,10 @@
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, ArrowUpRight, Check } from 'lucide-react'
-import Seo from '../components/Seo'
-import CtaSection from '../components/CtaSection'
-import { Reveal } from '../components/ui'
-import { projects, whatsappUrl } from '../lib/site'
-import { buttonStyles } from '../lib/styles'
+import Seo from './Seo'
+import CtaSection from './CtaSection'
+import { Reveal } from './ui'
+import { projects, whatsappUrl } from './site'
+import { buttonStyles } from './styles'
 
 const details: Record<string, { challenge: string; direction: string; highlights: string[]; outcome: string }> = {
   'aster-house': {

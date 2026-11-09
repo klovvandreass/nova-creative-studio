@@ -8,8 +8,8 @@ import {
   useLocation,
 } from 'react-router-dom'
 import Logo, { NovaMark } from './Logo'
-import { buttonStyles } from '../lib/styles'
-import { navigation, siteConfig, whatsappUrl } from '../lib/site'
+import { buttonStyles } from './styles'
+import { navigation, siteConfig, whatsappUrl } from './site'
 
 function RouteEffects() {
   const { pathname, hash } = useLocation()

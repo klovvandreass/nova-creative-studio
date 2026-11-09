@@ -1,10 +1,10 @@
 import { Info } from 'lucide-react'
-import Seo from '../components/Seo'
-import PageHero from '../components/PageHero'
-import ProjectCard from '../components/ProjectCard'
-import CtaSection from '../components/CtaSection'
-import { Reveal } from '../components/ui'
-import { projects } from '../lib/site'
+import Seo from './Seo'
+import PageHero from './PageHero'
+import ProjectCard from './ProjectCard'
+import CtaSection from './CtaSection'
+import { Reveal } from './ui'
+import { projects } from './site'
 
 export default function Portfolio() {
   return (

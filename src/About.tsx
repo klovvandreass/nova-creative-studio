@@ -1,10 +1,10 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import { Compass, Eye } from 'lucide-react'
-import Seo from '../components/Seo'
-import PageHero from '../components/PageHero'
-import CtaSection from '../components/CtaSection'
-import { Reveal, SectionHeading } from '../components/ui'
-import { processSteps } from '../lib/site'
+import Seo from './Seo'
+import PageHero from './PageHero'
+import CtaSection from './CtaSection'
+import { Reveal, SectionHeading } from './ui'
+import { processSteps } from './site'
 
 const values = [
   {

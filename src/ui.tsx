@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { motion, useReducedMotion } from 'framer-motion'
-import { buttonStyles, type ButtonVariant } from '../lib/styles'
+import { buttonStyles, type ButtonVariant } from './styles'
 
 type ButtonLinkProps = {
   to: string
